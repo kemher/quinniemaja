@@ -11,6 +11,39 @@ body {
 
 }
 
+#home{
+	background-image: url(../img/2.png);
+	background-repeat: no-repeat;
+	background-size: cover;	
+
+}
+
+
+nav > a > img {
+	width: 100px;
+	height: 75px;
+}
+
+.bg-nav {
+	background-color: #004961;
+
+}
+.navbar-nav >  li > a{
+	color: #FDB900;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.navbar-nav > li > a:hover {
+	color: linen;
+	transition: 0.05s;
+}
+
+.heads {
+	font-family: 'Shrikhand', cursive;
+	font-size: 3.5rem;
+}
+
+
 .a-head {
 	font-family: 'Shrikhand', cursive;
 	color: #FDB900;
@@ -22,35 +55,14 @@ body {
 	/*color: #004961;*/
 }
 
-#home{
-	background-image: url(../img/2.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	
-
-}
-
-.heads {
-	font-family: 'Shrikhand', cursive;
-	font-size: 3.5rem;
-	
-
-}
-
-.sub-heads {
-	font-weight: bold;
-	font-size: 1.8rem;
-	
-}
-
 .row-height {
 	height: 100vh;
 	width: 100%;
 }
 
 .img-size {
-	width: 300px;
-	height: 310px;
+	width: 270px;
+	height: 290px;
 }
 
 
@@ -59,5 +71,33 @@ body {
   :root {
     scroll-behavior: smooth;
   }
+}
+
+.btn-bg {
+	background-color: #FDB900;
+	color: white;
+}
+.zoom {
+  /*padding: 50px;
+  background-color: green;*/
+  transition: transform .2s;
+ /* width: 200px;
+  height: 200px;*/
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+div > .card, .form  {
+	background-color: #0B052B;
+
+}
+
+.card-body > h5 {
+	font-weight: bold;
+	color: #F5F5DC;
 }
 
