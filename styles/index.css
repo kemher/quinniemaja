@@ -17,11 +17,6 @@ body {
 	
 }
 
-.text-car {
-	color: #DE0029;
-	/*color: #004961;*/
-}
-
 #home{
 	background-image: url(../img/2.png);
 	background-repeat: no-repeat;
@@ -30,16 +25,10 @@ body {
 
 }
 
-.heads {
+h1 {
 	font-family: 'Shrikhand', cursive;
 	font-size: 3.5rem;
-	
-
-}
-
-.sub-heads {
-	font-weight: bold;
-	font-size: 1.8rem;
+	color: white;
 	
 }
 
@@ -48,16 +37,13 @@ body {
 	width: 100%;
 }
 
-.img-size {
-	width: 300px;
-	height: 310px;
-}
-
-
-
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
   }
 }
 
+.btn-me {
+	background-color:#FDB900;
+	color: linen;
+}
